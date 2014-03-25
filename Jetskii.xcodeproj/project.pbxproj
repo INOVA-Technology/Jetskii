@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBF8FD5B18DF9C1800EDD67E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF8FD5A18DF9C1800EDD67E /* Cocoa.framework */; };
+		DBF8FD6518DF9C1800EDD67E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBF8FD6318DF9C1800EDD67E /* InfoPlist.strings */; };
+		DBF8FD6718DF9C1800EDD67E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF8FD6618DF9C1800EDD67E /* main.m */; };
+		DBF8FD6B18DF9C1800EDD67E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DBF8FD6918DF9C1800EDD67E /* Credits.rtf */; };
+		DBF8FD6E18DF9C1800EDD67E /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF8FD6D18DF9C1800EDD67E /* Document.m */; };
+		DBF8FD7118DF9C1800EDD67E /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBF8FD6F18DF9C1800EDD67E /* Document.xib */; };
+		DBF8FD7418DF9C1800EDD67E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBF8FD7218DF9C1800EDD67E /* MainMenu.xib */; };
+		DBF8FD7618DF9C1800EDD67E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF8FD7518DF9C1800EDD67E /* Images.xcassets */; };
+		DBF8FD7D18DF9C1800EDD67E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF8FD7C18DF9C1800EDD67E /* XCTest.framework */; };
+		DBF8FD7E18DF9C1800EDD67E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF8FD5A18DF9C1800EDD67E /* Cocoa.framework */; };
+		DBF8FD8618DF9C1800EDD67E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBF8FD8418DF9C1800EDD67E /* InfoPlist.strings */; };
+		DBF8FD8818DF9C1800EDD67E /* JetskiiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF8FD8718DF9C1800EDD67E /* JetskiiTests.m */; };
+		DBF8FD9218DF9C9D00EDD67E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF8FD9118DF9C9D00EDD67E /* AVFoundation.framework */; };
+		DBF8FD9418DF9CA300EDD67E /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF8FD9318DF9CA300EDD67E /* AVKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBF8FD7F18DF9C1800EDD67E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF8FD4F18DF9C1800EDD67E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF8FD5618DF9C1800EDD67E;
+			remoteInfo = Jetskii;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBF8FD5718DF9C1800EDD67E /* Jetskii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jetskii.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF8FD5A18DF9C1800EDD67E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DBF8FD5D18DF9C1800EDD67E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DBF8FD5E18DF9C1800EDD67E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DBF8FD5F18DF9C1800EDD67E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DBF8FD6218DF9C1800EDD67E /* Jetskii-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jetskii-Info.plist"; sourceTree = "<group>"; };
+		DBF8FD6418DF9C1800EDD67E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBF8FD6618DF9C1800EDD67E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBF8FD6818DF9C1800EDD67E /* Jetskii-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jetskii-Prefix.pch"; sourceTree = "<group>"; };
+		DBF8FD6A18DF9C1800EDD67E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DBF8FD6C18DF9C1800EDD67E /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		DBF8FD6D18DF9C1800EDD67E /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		DBF8FD7018DF9C1800EDD67E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		DBF8FD7318DF9C1800EDD67E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DBF8FD7518DF9C1800EDD67E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DBF8FD7B18DF9C1800EDD67E /* JetskiiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JetskiiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF8FD7C18DF9C1800EDD67E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DBF8FD8318DF9C1800EDD67E /* JetskiiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JetskiiTests-Info.plist"; sourceTree = "<group>"; };
+		DBF8FD8518DF9C1800EDD67E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBF8FD8718DF9C1800EDD67E /* JetskiiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JetskiiTests.m; sourceTree = "<group>"; };
+		DBF8FD9118DF9C9D00EDD67E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DBF8FD9318DF9CA300EDD67E /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBF8FD5418DF9C1800EDD67E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF8FD9418DF9CA300EDD67E /* AVKit.framework in Frameworks */,
+				DBF8FD9218DF9C9D00EDD67E /* AVFoundation.framework in Frameworks */,
+				DBF8FD5B18DF9C1800EDD67E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF8FD7818DF9C1800EDD67E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF8FD7E18DF9C1800EDD67E /* Cocoa.framework in Frameworks */,
+				DBF8FD7D18DF9C1800EDD67E /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBF8FD4E18DF9C1800EDD67E = {
+			isa = PBXGroup;
+			children = (
+				DBF8FD6018DF9C1800EDD67E /* Jetskii */,
+				DBF8FD8118DF9C1800EDD67E /* JetskiiTests */,
+				DBF8FD5918DF9C1800EDD67E /* Frameworks */,
+				DBF8FD5818DF9C1800EDD67E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBF8FD5818DF9C1800EDD67E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBF8FD5718DF9C1800EDD67E /* Jetskii.app */,
+				DBF8FD7B18DF9C1800EDD67E /* JetskiiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBF8FD5918DF9C1800EDD67E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBF8FD9318DF9CA300EDD67E /* AVKit.framework */,
+				DBF8FD9118DF9C9D00EDD67E /* AVFoundation.framework */,
+				DBF8FD5A18DF9C1800EDD67E /* Cocoa.framework */,
+				DBF8FD7C18DF9C1800EDD67E /* XCTest.framework */,
+				DBF8FD5C18DF9C1800EDD67E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBF8FD5C18DF9C1800EDD67E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBF8FD5D18DF9C1800EDD67E /* AppKit.framework */,
+				DBF8FD5E18DF9C1800EDD67E /* CoreData.framework */,
+				DBF8FD5F18DF9C1800EDD67E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DBF8FD6018DF9C1800EDD67E /* Jetskii */ = {
+			isa = PBXGroup;
+			children = (
+				DBF8FD6C18DF9C1800EDD67E /* Document.h */,
+				DBF8FD6D18DF9C1800EDD67E /* Document.m */,
+				DBF8FD6F18DF9C1800EDD67E /* Document.xib */,
+				DBF8FD7218DF9C1800EDD67E /* MainMenu.xib */,
+				DBF8FD7518DF9C1800EDD67E /* Images.xcassets */,
+				DBF8FD6118DF9C1800EDD67E /* Supporting Files */,
+			);
+			path = Jetskii;
+			sourceTree = "<group>";
+		};
+		DBF8FD6118DF9C1800EDD67E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBF8FD6218DF9C1800EDD67E /* Jetskii-Info.plist */,
+				DBF8FD6318DF9C1800EDD67E /* InfoPlist.strings */,
+				DBF8FD6618DF9C1800EDD67E /* main.m */,
+				DBF8FD6818DF9C1800EDD67E /* Jetskii-Prefix.pch */,
+				DBF8FD6918DF9C1800EDD67E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBF8FD8118DF9C1800EDD67E /* JetskiiTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBF8FD8718DF9C1800EDD67E /* JetskiiTests.m */,
+				DBF8FD8218DF9C1800EDD67E /* Supporting Files */,
+			);
+			path = JetskiiTests;
+			sourceTree = "<group>";
+		};
+		DBF8FD8218DF9C1800EDD67E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBF8FD8318DF9C1800EDD67E /* JetskiiTests-Info.plist */,
+				DBF8FD8418DF9C1800EDD67E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBF8FD5618DF9C1800EDD67E /* Jetskii */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF8FD8B18DF9C1800EDD67E /* Build configuration list for PBXNativeTarget "Jetskii" */;
+			buildPhases = (
+				DBF8FD5318DF9C1800EDD67E /* Sources */,
+				DBF8FD5418DF9C1800EDD67E /* Frameworks */,
+				DBF8FD5518DF9C1800EDD67E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jetskii;
+			productName = Jetskii;
+			productReference = DBF8FD5718DF9C1800EDD67E /* Jetskii.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBF8FD7A18DF9C1800EDD67E /* JetskiiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF8FD8E18DF9C1800EDD67E /* Build configuration list for PBXNativeTarget "JetskiiTests" */;
+			buildPhases = (
+				DBF8FD7718DF9C1800EDD67E /* Sources */,
+				DBF8FD7818DF9C1800EDD67E /* Frameworks */,
+				DBF8FD7918DF9C1800EDD67E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBF8FD8018DF9C1800EDD67E /* PBXTargetDependency */,
+			);
+			name = JetskiiTests;
+			productName = JetskiiTests;
+			productReference = DBF8FD7B18DF9C1800EDD67E /* JetskiiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBF8FD4F18DF9C1800EDD67E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = INOVA;
+				TargetAttributes = {
+					DBF8FD7A18DF9C1800EDD67E = {
+						TestTargetID = DBF8FD5618DF9C1800EDD67E;
+					};
+				};
+			};
+			buildConfigurationList = DBF8FD5218DF9C1800EDD67E /* Build configuration list for PBXProject "Jetskii" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBF8FD4E18DF9C1800EDD67E;
+			productRefGroup = DBF8FD5818DF9C1800EDD67E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBF8FD5618DF9C1800EDD67E /* Jetskii */,
+				DBF8FD7A18DF9C1800EDD67E /* JetskiiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBF8FD5518DF9C1800EDD67E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF8FD7118DF9C1800EDD67E /* Document.xib in Resources */,
+				DBF8FD7618DF9C1800EDD67E /* Images.xcassets in Resources */,
+				DBF8FD6518DF9C1800EDD67E /* InfoPlist.strings in Resources */,
+				DBF8FD6B18DF9C1800EDD67E /* Credits.rtf in Resources */,
+				DBF8FD7418DF9C1800EDD67E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF8FD7918DF9C1800EDD67E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF8FD8618DF9C1800EDD67E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBF8FD5318DF9C1800EDD67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF8FD6E18DF9C1800EDD67E /* Document.m in Sources */,
+				DBF8FD6718DF9C1800EDD67E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF8FD7718DF9C1800EDD67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF8FD8818DF9C1800EDD67E /* JetskiiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBF8FD8018DF9C1800EDD67E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF8FD5618DF9C1800EDD67E /* Jetskii */;
+			targetProxy = DBF8FD7F18DF9C1800EDD67E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBF8FD6318DF9C1800EDD67E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF8FD6418DF9C1800EDD67E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DBF8FD6918DF9C1800EDD67E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF8FD6A18DF9C1800EDD67E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DBF8FD6F18DF9C1800EDD67E /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF8FD7018DF9C1800EDD67E /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		DBF8FD7218DF9C1800EDD67E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF8FD7318DF9C1800EDD67E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		DBF8FD8418DF9C1800EDD67E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF8FD8518DF9C1800EDD67E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBF8FD8918DF9C1800EDD67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DBF8FD8A18DF9C1800EDD67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DBF8FD8C18DF9C1800EDD67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jetskii/Jetskii-Prefix.pch";
+				INFOPLIST_FILE = "Jetskii/Jetskii-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DBF8FD8D18DF9C1800EDD67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jetskii/Jetskii-Prefix.pch";
+				INFOPLIST_FILE = "Jetskii/Jetskii-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DBF8FD8F18DF9C1800EDD67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jetskii.app/Contents/MacOS/Jetskii";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jetskii/Jetskii-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JetskiiTests/JetskiiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DBF8FD9018DF9C1800EDD67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jetskii.app/Contents/MacOS/Jetskii";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jetskii/Jetskii-Prefix.pch";
+				INFOPLIST_FILE = "JetskiiTests/JetskiiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBF8FD5218DF9C1800EDD67E /* Build configuration list for PBXProject "Jetskii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF8FD8918DF9C1800EDD67E /* Debug */,
+				DBF8FD8A18DF9C1800EDD67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF8FD8B18DF9C1800EDD67E /* Build configuration list for PBXNativeTarget "Jetskii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF8FD8C18DF9C1800EDD67E /* Debug */,
+				DBF8FD8D18DF9C1800EDD67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBF8FD8E18DF9C1800EDD67E /* Build configuration list for PBXNativeTarget "JetskiiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF8FD8F18DF9C1800EDD67E /* Debug */,
+				DBF8FD9018DF9C1800EDD67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBF8FD4F18DF9C1800EDD67E /* Project object */;
+}
